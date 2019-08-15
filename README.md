@@ -1,9 +1,9 @@
 # lnmp 和 laravel 一键安装包配置
-## 一、修改/user/local/php/etc/php.ini中的配置
+## 一、修改/usr/local/php/etc/php.ini中的配置
 	display_errors = Off 修改为On  错误信息
     
     disable_functions 中删除  proc_open,proc_get_status
-## 二、修改/user/local/nginx/conf/nginx.conf
+## 二、修改/usr/local/nginx/conf/nginx.conf
 	
 	server中：
 
@@ -16,7 +16,7 @@
             try_files $uri $uri/ /index.php?$query_string;
      }
 
-## 三、修改/user/local/nginx/confi/fastcgi.conf
+## 三、修改/usr/local/nginx/conf/fastcgi.conf
 	
 	最后一行
 
