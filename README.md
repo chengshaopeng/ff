@@ -1,4 +1,4 @@
-# lnmp 和 laravel 一键安装包配置
+# lnmp1.4 和 laravel 一键安装包配置
 ## 一、修改/usr/local/php/etc/php.ini中的配置
 	display_errors = Off 修改为On  错误信息
     
